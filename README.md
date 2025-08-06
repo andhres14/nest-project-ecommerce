@@ -11,4 +11,10 @@
 4. Change values in environment variables
 5. Up DB
 ```docker-compose up -d ```
-6. Run app: ```yarn start:dev```
+
+6. Execute SEED
+```
+https://localhost:3000/api/seed
+```
+
+7. Run app: ```yarn start:dev```
