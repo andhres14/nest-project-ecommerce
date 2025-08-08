@@ -6,7 +6,7 @@ export class ErrorHandlerService {
     
     constructor() {}
 
-    public errorHandle(error: any) {
+    public errorHandle(error: any): never {
         if(error.code === '23505')
             throw new BadRequestException(error.detail);
 
