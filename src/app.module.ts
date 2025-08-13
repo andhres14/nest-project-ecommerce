@@ -44,4 +44,6 @@ import { MessagesWsModule } from './messages-ws/messages-ws.module';
   controllers: [],
   providers: [],
 })
-export class AppModule {}
+export class AppModule {
+  constructor() { console.log(`App running on stage: ${ process.env.STAGE }`) }
+}
