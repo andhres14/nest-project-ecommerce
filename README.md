@@ -20,7 +20,7 @@ https://localhost:3000/api/seed
 7. Run app: ```yarn start:dev```
 
 
-# PROD Urls
+# Production Notes:
 
-- API: https://nest-project-ecommerce.onrender.com
+- API: https://nest-project-ecommerce.onrender.com/api
 - Client WS: https://wondrous-hummingbird-1c043d.netlify.app/
